@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <input id="num1" />
+
+    <div id="operator_btns">
+        <button class="buttondiv" id="plus" onclick="op='+'">+</button>
+        <button class="buttondiv" id="minus" onclick="op='-'">-</button>
+        <button class="buttondiv" id="times" onclick="op='*'">x</button>
+        <button class="buttondiv" id="divide" onclick="op='/'">:</button>
+    </div>
+
+    <input id="num2" />
+    <br>
+
+    <div class="divbut"><button class="result" onclick="func()">Посчитать</button></div>
+
+    <p id="result"></p>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
